@@ -1,4 +1,9 @@
-<?php ?>
+<?php 
+
+
+
+
+?>
 
 <ul>
 <?php foreach ($categorias as $categoria) { ?>
