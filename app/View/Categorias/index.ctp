@@ -1,29 +1,25 @@
-<?php 
-
-
-
-?>
+<?php ?>
 
 <ul>
-    <?php foreach ($categorias as $categoria) { ?>
+<?php foreach ($categorias as $categoria) { ?>
         <li id="categoria-<?php echo $categoria['id'] ?>"><a href="#"><?php echo $categoria['categoria'] ?></a></li>
-    <?php } ?>
+<?php } ?>
 </ul>
 
 
 <div style="display:none">
 
-    <?php foreach ($categorias as $categoria) { ?>
+<?php foreach ($categorias as $categoria) { ?>
 
 
         <div id="anuncio-<?php echo $categoria['id'] ?>">
 
-            <?php echo $categoria ?>
+    <?php echo $categoria ?>
 
         </div>
 
 
-    <?php } ?>
+<?php } ?>
 
 </div>
 
