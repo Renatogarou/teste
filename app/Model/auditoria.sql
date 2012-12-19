@@ -1,0 +1,1 @@
+SELECT i.matricula, i.nome, replace(round(sum(replace(replace(p.restituicao,'.',''),',','.')),2),'.',',') restituicao FROM auditoria.interessados i inner JOIN auditoria.periodos p ON (p.interessado_id=i.id) GRoup by i.matricula;

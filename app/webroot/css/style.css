@@ -1,0 +1,287 @@
+/* 
+    Document   : style
+    Created on : 12/04/2012, 10:57:46
+    Author     : renato.moura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#box_form_endereco{
+    border: 1px solid #000;
+}
+
+#form_endereco{
+    display: none;
+}
+
+.bt_show_hide{
+    width:25px;
+    height:25px;
+    text-align:center
+}
+
+#InteressadoNome{
+    text-transform: uppercase;
+}
+
+#title{
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body { line-height: 1;font-family: 'Ubuntu Condensed', sans-serif;font-size: 12px; width: 100%; height: 100%; color: #000; font-size: 14px; }
+.clear { clear: both; }
+
+#wrapper { margin: 10px auto; width: 100%; }
+#wrapper a { text-decoration: none; color: #0B7A96; }
+#wrapper span.highlight { color: #0B7A96; }
+
+#header { border-bottom: 1px solid #ccc; margin-bottom: 20px; }
+#header .top { border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+#header ul.navigation { list-style: none; text-align: right; }
+#header .navigation li { display: inline }
+#header .navigation li a { display: inline-block; padding: 10px 15px; border-left: 1px solid #ccc; }
+#header h2 { font-family:'Alike', serif, cursive; font-size: 26pt; text-align: center; line-height:50px; }
+#header h2 a { color: #000; }
+#header h3 { text-align: center; font-family: 'Alike', cursive; font-size: 16pt; margin-bottom: 20px; font-weight: normal; }
+
+.main-col { width:100%; display: inline-block;padding: 20px; margin-bottom: 20px; }
+/*.sidebar { width: 239px; padding: 10px; display: inline-block; }*/
+
+.main-col a { color: #0B7A96; }
+.main-col h1,
+.main-col h2
+{ line-height: 1.2em; font-size: 32px; margin-bottom: 10px; font-weight: normal; color: #0B7A96; }
+.main-col p { line-height: 1.5em; margin-bottom: 20px; }
+
+#footer { border-top: 1px solid #ccc; clear: both; text-align: center; padding: 10px; color: #aaa; }
+
+#interessado-table{
+    width: 90%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding:15px;
+}
+
+#interessado-table tr td{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 30px;
+    padding: 0 0 5px 5px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#interessado-table tr.odd td{
+    background:#E1E4D6;
+
+}
+
+#interessado-table tr th {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 30px;
+    padding-left:5px;
+    text-align: center;
+    vertical-align: middle;
+    background: #172D3A;
+    color:#FFF;
+}
+
+#interessado-table  tr td.check{
+    text-align: center;
+}
+
+#interessado-table caption{
+    height: 50px;
+    border: 1px solid #000;
+    font-size:22pt;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight:bold;
+    background:#E1E4D6;   
+    padding:10px 0 0 5px;
+
+}
+
+#interessado-table caption span{
+    display: inline;
+    vertical-align: bottom;
+}
+
+#interessado-table caption form{
+    float:right;
+    display: table;
+}
+
+#interessado-table caption form input[type='text']{
+    height:20px;
+}
+
+#interessado-table caption form input[type='submit']{
+    background:url('../img/lupa.gif') transparent;
+    border:0;
+    width: 31px;
+    height:28px;
+}
+
+#InteressadoForm input,#InteressadoForm select{
+    width:300px;
+    height: 30px;
+}
+
+#InteressadoForm label{
+    width:200px;
+    height:30px;
+    display:block;
+    font-size: 16pt;
+}
+
+#InteressadoForm input[type='submit']{
+    width:98%;
+    margin-top:10px;
+    height: 40px;
+}
+
+#box-form-interessado{
+    margin:0 auto;
+    width:70%;
+
+}
+
+.last_cell{
+    border-right: 1px solid #000;
+}
+
+
+
+#list-form-interessado{
+    display: table;
+}
+
+#list-form-interessado li{
+    display: list-item;
+    float:left;
+    width: 330px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+
+#box-periodo{
+    display: table;    
+}
+
+#box-form-periodo {
+    background:#ccc;
+    width: 34%;
+    float: left;
+}
+
+#list-form-periodo{
+    display: table;
+    border: 1px solid #000;
+}
+
+#list-form-periodo li{
+    display: list-item;
+    float:left;
+    width: 225px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#list-form-periodo li input,#list-form-periodo li select{
+    float:right;
+    height:30px;
+}
+
+#list-form-periodo li input[type='submit']{
+    width: 100%;
+}
+
+#box-form .dados-interessado{
+    border:solid 1px red;
+    width: 40%;
+}
+
+#box-table-periodo{
+    width:60%;
+    padding-left:15px;
+    display: table;
+}
+
+#table-periodo{
+    border:1px solid #ccc;
+    width: 100%;
+}
+
+#table-periodo th{
+    font-weight: 400;
+    height: 30px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background:#E1E4D6;
+    
+}
+
+#table-periodo td{
+    font-weight: 400;
+    height: 30px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding:0 5px;
+    text-align: right;
+}
+
+#table-periodo td.text-left{
+    text-align:left;
+}
+
+#table-periodo td.text-center{
+    text-align: center;
+}
+#table-periodo tr.odd td{
+    background:#E1E4D6;
+}
+
+#box-form .endereco-interessado{
+    border:solid 1px red;
+    float:right;
+    width: 60%;
+}
+
+.error-message{
+    color:#e32;
+    margin-top: 2px;
+    width: 305px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+.meses {
+    width: 40px;
+    height: 24px;
+    float:right;
+}
+
+.back_bt{
+    font-size: 16pt;
+    display:block;
+    width:100px;
+    padding:5px;
+    text-align:center;
+    height: 30px;
+    vertical-align: middle;
+    background: #CCC;
+        
+}
